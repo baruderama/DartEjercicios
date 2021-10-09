@@ -11,7 +11,7 @@ mixin Logger {
 class Logger2 {
   void imprimir2(String texto) {
     final hoy = DateTime.now();
-    print('$hoy ::: $texto');
+    print('$hoy :::: $texto');
   }
 }
 
